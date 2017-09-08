@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="img/jimbotruck.jpg">
+  <script src="https://use.fontawesome.com/9a77ea3aef.js"></script>
+</head>
+
+<body>
+
+	<div class="container">
+		<h1 class="title">Basic Boat Knowledge Quiz</h1>
+    <img src="img/anchor.png" alt="anchor">
+		<div class="row">
+			<form class="col-sm-7">
+				<div class="form-group">
+					<div id="question0"></div>
+					<input id="answer0" type="text" class="form-control" placeholder="Type Response Here">
+				</div>
+				<div class="form-group">
+					<div id="question1"></div>
+					<input id="answer1" type="text" class="form-control" placeholder="Type Response Here">
+				</div>
+				<div class="form-group">
+					<div id="question2"></div>
+					<input id="answer2" type="text" class="form-control" placeholder="Type Response Here">
+				</div>
+				<div class="form-group">
+					<div id="question3"></div>
+					<input id="answer3" type="text" class="form-control" placeholder="Type Response Here">
+				</div>
+				<div class="form-group">
+					<div id="question4"></div>
+					<input id="answer4" type="text" class="form-control" placeholder="Type Response Here">
+				</div>
+				<div class="form-group">
+					<div id="question5"></div>
+					<input id="answer5" type="text" class="form-control" placeholder="Type Response Here">
+				</div>
+				<div class="form-group">
+					<div id="question6"></div>
+					<input id="answer6" type="text" class="form-control" placeholder="Type Response Here">
+				</div>
+				<div class="form-group">
+					<div id="question7"></div>
+					<input id="answer7" type="text" class="form-control" placeholder="Type Response Here">
+				</div>
+				<div class="form-group">
+					<div id="question8"></div>
+					<input id="answer8" type="text" class="form-control" placeholder="Type Response Here">
+				</div>
+				<div class="form-group">
+					<div id="question9"></div>
+					<input id="answer9" type="text" class="form-control" placeholder="Type Response Here">
+				</div>
+				<br>
+
+				<button type="button" onclick="checkAnswers()" class="btn btn-primary btn-lg">Check Your Answers</button>
+			</form>
+
+			<div class="col-sm-2 col-sm-offset-1">
+				<h1 class="correct">Correct: <span id="correct"></span></h1>
+				<h1 class="incorrect">Incorrect:  <span id="incorrect"></span></h1>
+			</div>
+		</div>
+	</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
